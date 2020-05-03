@@ -65,6 +65,10 @@ public abstract class BaseObject implements GameObject {
             canvas.getMatrix()[y][x] = getC();
         }
 
+
+        /*
+        Return true if this point intersect with specified
+         */
         boolean isIntersect(Point point){
             if (x == point.x && y == point.y && point != this){
                 return true;
