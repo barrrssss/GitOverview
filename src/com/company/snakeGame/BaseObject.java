@@ -26,7 +26,7 @@ public abstract class BaseObject implements GameObject {
     
     
     /*
-    Object will be destried in next iteration
+    Object will be destroyed in next iteration
     */
     void die(){
         isAlive = false;
