@@ -23,7 +23,11 @@ public abstract class BaseObject implements GameObject {
             point.draw(canvas);
         }
     };
-
+    
+    
+    /*
+    Object will be destried in next iteration
+    */
     void die(){
         isAlive = false;
     };
