@@ -46,6 +46,8 @@ public abstract class BaseObject implements GameObject {
         return false;
     }
 
+
+
     abstract class Point{
         private int x;
         private int y;
@@ -56,6 +58,9 @@ public abstract class BaseObject implements GameObject {
 
         }
 
+        /*
+        Draw the point on specified canvas
+         */
         private void draw(Canvas canvas){
             canvas.getMatrix()[y][x] = getC();
         }
