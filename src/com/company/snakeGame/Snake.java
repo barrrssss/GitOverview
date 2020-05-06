@@ -105,7 +105,7 @@ public class Snake extends BaseObject implements Blockable, Movable {
         return false;
     }
 
-//    An enumeration of snakes moving directions. Snake can't moving by opposite direction, so it was added;
+//    The enumeration of snakes moving directions. Snake can't moving by opposite direction, so it was added;
     public enum Direction {UP, DOWN, LEFT, RIGHT;
         Direction opposite;
 
