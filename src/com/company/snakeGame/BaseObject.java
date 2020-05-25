@@ -3,6 +3,7 @@ package com.company.snakeGame;
 import java.util.Collections;
 import java.util.List;
 
+    
 public abstract class BaseObject implements GameObject {
     private List<Point> points;
     private boolean isAlive;
@@ -50,7 +51,9 @@ public abstract class BaseObject implements GameObject {
         return false;
     }
 
-
+    /*
+	Bases objects include Points inside. All point types have y, x coordinates.
+    */
 
     abstract class Point{
         private int x;
